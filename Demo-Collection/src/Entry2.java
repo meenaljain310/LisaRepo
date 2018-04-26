@@ -14,7 +14,7 @@ public class Entry2 {
 		c = (Collection)list;		//up-casting
 	
 		
-		char ch =  '\uFFFF';				;
+		char ch =  '\uFFFF';		;
 		
 	
 		System.out.println((double)ch);
