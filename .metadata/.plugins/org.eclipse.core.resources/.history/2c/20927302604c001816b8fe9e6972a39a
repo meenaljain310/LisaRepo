@@ -1,0 +1,15 @@
+package Com.cg;
+import java.util.HashMap;
+
+
+public class Entry1 {
+
+public static void main(String[] args) {
+	HashMap<EmployeePK,Employee> entries;
+	entries = new HashMap<EmployeePK,Employee>();
+	entries.put(new EmployeePK(23,"23/08/2018"),new Employee(23,"Meenal","23/08/2018","JAVA"));
+	entries.put(new EmployeePK(24,"23/08/2018"),new Employee(24,"Hari","23/08/2018","JAVA"));
+	entries.put(new EmployeePK(25,"23/08/2018"),new Employee(25,"Haneef","23/08/2018","JAVA"));
+	System.out.println(entries.size());
+}
+}

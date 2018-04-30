@@ -1,0 +1,12 @@
+package com.cg.util;
+
+public class LinkedList {
+
+	
+	
+class Node{
+	private int data;
+	private int next;
+	
+}
+}

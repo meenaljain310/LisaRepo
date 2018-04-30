@@ -1,0 +1,20 @@
+package linkedList;
+public class LinkedList {
+	public static void main(String args[])
+    {
+        LinkedList<String> member = new LinkedList<String>();
+        member.add("A");
+        member.add("B");
+        member.addLast("C");
+        member.addFirst("D");
+        member.add("E");
+        member.add("F");
+        member.add("G");
+        System.out.println("Linked list : " + member);
+        public boolean add(int data)
+        {
+        	
+        }
+        System.out.println("Linked list after change : " + member);
+    }
+}

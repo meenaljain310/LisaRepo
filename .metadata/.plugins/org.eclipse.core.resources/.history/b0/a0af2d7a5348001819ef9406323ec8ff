@@ -1,0 +1,18 @@
+package linkedList;
+import java.util.LinkedList;
+public class linkedList {
+	public static void display(String[] args) {
+		System.out.println("Linked list : " + member);
+	}
+    {
+        LinkedList<Integer> member = new LinkedList<Integer>();
+        member.add(1);
+        member.add(2);
+        member.add(3);
+        member.add(4);
+        member.add(5);
+        member.add(6);
+        member.add(7);
+        display(member);
+    }
+}

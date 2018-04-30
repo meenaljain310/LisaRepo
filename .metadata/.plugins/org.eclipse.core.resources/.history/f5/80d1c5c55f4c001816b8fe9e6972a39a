@@ -1,0 +1,12 @@
+package Com.cg;
+
+public class EmployeePK {
+	private int id1;
+	private String entity1;
+	public EmployeePK(int id2, String entity2)
+	{
+			this.id1=id2;
+			this.entity1=entity2;
+		}
+		
+}

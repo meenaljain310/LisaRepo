@@ -1,0 +1,9 @@
+import java.util.HashMap;
+package Com.cg;
+public class Entry {
+public static void main(String[] args) {
+	HashMap<EmployeePK,Employee> entries;
+	entries = new HashMap<>();
+	entries.put(new EmployeePK(23,"23/08/2018"), new Employee(23,"Meenal","23/08/2018","JAVA"));
+}
+}
