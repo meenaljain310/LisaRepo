@@ -10,7 +10,7 @@ public class Entry6 {
 		Person p1 = new Person("mahesh", 18);
 		persons.add(p1);
 		
-		Person p2 = new Person("mahesh", 18);
+		Person p2 = new Person("ma", 18);
 		persons.add(p2);
 		
 		Person p3 = new Person("maheshh", 18);
