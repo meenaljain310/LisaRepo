@@ -12,10 +12,11 @@ public class Entry7 {
 		entries.put(null,"JIO");
 		entries.put(null,"JIO");
 		
-		String oldValue = entries.put(9822098220L,"Idea");
-		System.out.println(oldValue);
-		oldValue = entries.put(9822098220L,"Vodafone");
-		System.out.println(oldValue);
+		entries.put(98220567220L,"Idea");
+		String oldVal = entries.put(98220567220L,"Vodafone");
+		System.out.println(oldVal);
+	    oldVal = entries.put(98220567220L,"BSNL");
+		System.out.println(oldVal);
 		
 		
 		
